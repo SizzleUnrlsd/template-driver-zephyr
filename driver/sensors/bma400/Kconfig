@@ -1,0 +1,7 @@
+menuconfig BMA4XX
+    bool "Enable BMA4XX"
+    default y
+    depends on DT_HAS_BMA_4XX_ENABLED
+    select I2C
+    # help
+	#     BMA 4XX sensor from I2C
