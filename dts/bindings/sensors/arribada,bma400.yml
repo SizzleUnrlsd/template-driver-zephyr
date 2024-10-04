@@ -1,0 +1,5 @@
+description:
+
+compatible:
+
+include: [sensor-device.yaml, i2c-device.yaml]
